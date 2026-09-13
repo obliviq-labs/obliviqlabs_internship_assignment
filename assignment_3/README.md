@@ -37,6 +37,14 @@ The four possible actions are:
 
 The sensor readings are real-valued distances. The source does not specify a unit, so do not assume one in your analysis. For this assignment, treat each row as one supervised classification example.
 
+### Dataset attribution
+
+- **Dataset:** [Wall-Following Robot Navigation Data](https://archive.ics.uci.edu/dataset/194/wall+following+robot+navigation+data)
+- **Creators:** Ananda Freire, Marcus Veloso, and Guilherme Barreto (2009)
+- **Repository:** UCI Machine Learning Repository
+- **License:** [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
+- **DOI:** [10.24432/C57C8W](https://doi.org/10.24432/C57C8W)
+
 ## Your task
 
 ### Part 1 — Understand the data
@@ -84,7 +92,20 @@ For each example, show:
 - The predicted action
 - Your explanation of why the model may have been confused
 
-There may not be one provably correct explanation. We are interested in the quality of your reasoning, the patterns you identify, and the additional experiment you would run to test your explanation.
+There may not be one provably correct explanation. We are interested in the quality of your reasoning and the patterns you identify. You may use one of these observations to motivate the experiment in Part 6.
+
+### Part 6 — Run one experiment of your own
+
+Based on something you observed in the data or in the model's failures, form one small hypothesis and run an experiment to test it.
+
+In your report, explain:
+
+- What you observed and what you expected to happen
+- What you changed and why that tests your hypothesis
+- What happened, using an appropriate measurement or comparison
+- What you concluded, including whether the result supported your hypothesis
+
+Keep the experiment focused. We are interested in how you turn an observation into a test and reason about the result, not in an exhaustive model search.
 
 ## Bonus — Compare against explicit rules
 
@@ -136,7 +157,7 @@ your_submission/
 ├── requirements.txt         # Or an equivalent environment file
 ├── src/                     # Python scripts, if used
 ├── notebook.ipynb           # Optional; a notebook is also acceptable
-├── report.md or report.pdf  # Analysis, plots, results, and failure discussion
+├── report.md or report.pdf  # Analysis, plots, results, failures, and experiment
 └── outputs/                 # Generated plots or other relevant outputs
 ```
 
@@ -148,9 +169,8 @@ Your work should run from a fresh environment using the instructions you provide
 - Thoughtful exploration rather than a large number of plots
 - A sensible modeling and evaluation process
 - Careful analysis of wrong predictions
+- A clear hypothesis and a focused experiment that tests it
 - Clear written communication
 - Independent engineering judgment
 
 The highest score does not necessarily go to the most complex model. A simple model with well-reasoned experiments and strong failure analysis is an excellent submission.
-
-

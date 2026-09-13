@@ -33,6 +33,14 @@ Distances and linear velocities are reported in millimetres and millimetres per
 second. The original UCI dataset page and documentation are the source of truth
 for the file format and sensor meanings.
 
+### Dataset attribution
+
+- **Dataset:** [Pioneer-1 Mobile Robot Data](https://archive.ics.uci.edu/dataset/135/pioneer+1+mobile+robot+data)
+- **Creators:** Matthew Schmill and Paul Cohen (1999)
+- **Repository:** UCI Machine Learning Repository
+- **License:** [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
+- **DOI:** [10.24432/C5BS5T](https://doi.org/10.24432/C5BS5T)
+
 ## Your objective
 
 Understand and repair the pipeline so that the following flow works correctly:
